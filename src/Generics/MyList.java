@@ -7,7 +7,6 @@ public class MyList<T> {
     int start;
     int end;
     private Integer capacity;
-
     public MyList() {
         this.capacity=giveCapacity();
         this.array = (T[]) new Object[10];
