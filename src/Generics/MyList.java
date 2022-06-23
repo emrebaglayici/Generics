@@ -6,6 +6,7 @@ public class MyList<T> {
     private T[] array;
     int start;
     int end;
+
     private Integer capacity;
     public MyList() {
         this.capacity=giveCapacity();
